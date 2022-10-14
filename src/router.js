@@ -1,6 +1,7 @@
 const API = "/api";
 
 const productRouter = require("./product/controller/router");
+const categoryRouter = require("./category/controller/router");
 
 module.exports = (app) => {
   app.get("/", (req, res) => {
@@ -11,4 +12,5 @@ module.exports = (app) => {
   });
 
   app.use(API, productRouter);
+  app.use(API, categoryRouter);
 };

@@ -1,5 +1,3 @@
-const Product = require("../domain/product");
-
 class GetProductsByCategory {
   constructor(productRepository) {
     this.productRepository = productRepository;
