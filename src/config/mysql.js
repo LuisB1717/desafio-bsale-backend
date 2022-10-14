@@ -13,7 +13,6 @@ async function doQuery(query, params) {
     pool.query(query, params, function (error, results) {
       if (error) {
         reject(error);
-        pool.connect();
       } else {
         resolve(results);
       }
