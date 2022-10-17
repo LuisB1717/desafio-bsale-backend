@@ -1,4 +1,4 @@
-## Bienvenido al respositorio backend de la app store
+# Bienvenido al respositorio backend de la app store
 
 Instalación:
 
