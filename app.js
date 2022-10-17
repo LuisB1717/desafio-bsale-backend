@@ -5,6 +5,8 @@ const Router = require("./src/router");
 
 const PORT = process.env.PORT || 4000;
 
+app.use('/', express.static(__dirname + '/public'));
+
 app.use(express.json());
 app.use((req, res, next) => {
   res.header("Access-Control-Allow-Origin", "*");
