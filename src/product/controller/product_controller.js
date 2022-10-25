@@ -1,7 +1,7 @@
 const GetProducts = require("../services/get_products_by_category");
 const MysqlProductRepository = require("../repository/mysql_product_repository");
 
-async function getProductsByCategory(req, res) {
+async function getProducts(req, res) {
   try {
     const { category, q } = req.query;
     const getProducts = new GetProducts(new MysqlProductRepository());
@@ -12,4 +12,4 @@ async function getProductsByCategory(req, res) {
   }
 }
 
-module.exports = { getProductsByCategory };
+module.exports = { getProducts };

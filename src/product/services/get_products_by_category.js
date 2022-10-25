@@ -1,4 +1,4 @@
-class GetProductsByCategory {
+class GetProducts {
   constructor(productRepository) {
     this.productRepository = productRepository;
   }
@@ -12,4 +12,4 @@ class GetProductsByCategory {
   }
 }
 
-module.exports = GetProductsByCategory;
+module.exports = GetProducts;
