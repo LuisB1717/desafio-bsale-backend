@@ -4,7 +4,7 @@ class GetProductsByCategory {
   }
 
   async call({ category, q }) {
-    const results = await this.productRepository.getProductsByCategory({
+    const results = await this.productRepository.getProducts({
       category,
       q,
     });

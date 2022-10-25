@@ -1,5 +1,5 @@
 class ProductRepository {
-  async getProductsByCategory() {}
+  async getProducts() {}
 }
 
 module.exports = ProductRepository;
