@@ -1,3 +1,6 @@
+/**
+ * Caso de uso de obtener los productos.
+ */
 class GetProducts {
   constructor(productRepository) {
     this.productRepository = productRepository;

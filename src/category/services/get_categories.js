@@ -1,3 +1,6 @@
+/**
+ * Caso de uso de obtener las categorías.
+ */
 class GetCategories {
   constructor(categoryRepository) {
     this.categoryRepository = categoryRepository;
